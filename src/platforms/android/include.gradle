@@ -1,0 +1,13 @@
+/* Include.gradle configuration: http://docs.nativescript.org/plugins/plugins#includegradle-specification */
+
+android {
+	productFlavors {
+		"nativescript-trialy" {
+			dimension "nativescript-trialy"
+		}
+	}
+}
+
+dependencies {
+    compile 'io.trialy.library:trialy:1.0.3'
+}
